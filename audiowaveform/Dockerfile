@@ -2,7 +2,7 @@
 # Dockerfile for audiowaveform
 #
 
-FROM ubuntu
+FROM ubuntu:groovy-20210614
 MAINTAINER kev <noreply@easypi.pro>
 
 RUN apt-get update \
